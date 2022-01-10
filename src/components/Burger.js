@@ -24,7 +24,7 @@ class Burger extends React.Component {
                     <button
                         className="buttonOrder"
                         disabled={!isAvailable}
-                    >{isAvailable ? "Заказать" : "Товара нет"}
+                    >{isAvailable ? "Заказать" : "Товара нет!"}
                     </button>
                 </div>
             </li>
